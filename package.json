@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "snake multiplayer game",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npx nodemon server.js -e js,html,css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:\\Users\\NassimSADIKOU\\Desktop\\nodeJS"
+  },
+  "author": "Nssim Sadikou",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "nodemon": "^2.0.6",
+    "reload": "^3.1.1"
+  },
+  "type": "module"
+}
